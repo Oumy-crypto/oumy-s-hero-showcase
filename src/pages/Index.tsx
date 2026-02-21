@@ -10,7 +10,7 @@ const Index = () => {
         </span>
 
         {/* Name */}
-        <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-foreground leading-[1.1] mb-6">
+        <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-foreground leading-[1.1] mb-6 font-serif">
           Oumy <span className="text-primary">BASSE</span>
         </h1>
 
