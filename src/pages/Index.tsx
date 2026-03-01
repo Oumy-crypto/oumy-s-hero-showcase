@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -20,13 +21,13 @@ const Index = () => {
         </p>
 
         {/* CTA */}
-        <a
-          href="#projets"
-          className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all duration-300 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98]">
-
+        <Link
+          to="/todo"
+          className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all duration-300 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98]"
+        >
           Voir mes projets
           <ArrowRight className="h-5 w-5" />
-        </a>
+        </Link>
       </div>
     </div>);
 
